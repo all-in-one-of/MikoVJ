@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParticleSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="msaFluidParticlesApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\MSAFluid\src\MSAFluidDrawerBase.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\MSAFluid\src\MSAFluidSolver.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\MSACore\src\MSACoreGL.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\MSACore\src\cinder-lite\Color.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiControl.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiPage.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiToo.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.cpp">
+      <Filter>addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidi.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\rtmidi\RtMidi.cpp">
+      <Filter>midi</Filter>
+    </ClCompile>
+    <ClCompile Include="MMidiListener.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidControls.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidMidiMapper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiBindings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgVectorField.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgVectorFieldFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgTextureFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgTexture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgClusterFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgCluster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterSet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Automator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiAction.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiDevice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="AkaiAPC20Device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MSABPMTapper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionUC16Device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{905bcf27-b244-4369-a239-a158bcf577ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="midi">
+      <UniqueIdentifier>{56c936ff-70b4-4ba7-85e2-6be87df27212}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Particle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParticleSystem.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msaFluidParticlesApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidi.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiConstants.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiTypes.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\rtmidi\RtError.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\rtmidi\RtMidi.h">
+      <Filter>midi</Filter>
+    </ClInclude>
+    <ClInclude Include="MMidiListener.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidControls.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidMidiMapper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiBindings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgVectorField.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgVectorFieldFactory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgTextureFactory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgTexture.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgClusterFactory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgCluster.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterSet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Automator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiAction.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiMap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiDevice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="AkaiAPC20Device.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MSABPMTapper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionUC16Device.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
