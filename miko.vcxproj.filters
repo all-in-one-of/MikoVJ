@@ -185,9 +185,6 @@
     <ClInclude Include="src\ParticleSystem.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\msaFluidParticlesApp.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.h">
       <Filter>midi</Filter>
     </ClInclude>
@@ -279,6 +276,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="EvolutionUC16Device.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="msaFluidParticlesApp.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

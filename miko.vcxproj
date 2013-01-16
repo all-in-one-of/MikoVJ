@@ -275,7 +275,7 @@
     <ClInclude Include="MidiMap.h" />
     <ClInclude Include="MMidiListener.h" />
     <ClInclude Include="MSABPMTapper.h" />
-    <ClInclude Include="src\msaFluidParticlesApp.h" />
+    <ClInclude Include="msaFluidParticlesApp.h" />
     <ClInclude Include="src\Particle.h" />
     <ClInclude Include="src\ParticleSystem.h" />
     <ClInclude Include="Utils.h" />
