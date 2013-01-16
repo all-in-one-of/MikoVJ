@@ -43,6 +43,8 @@ void ImgTexture::updateImage(const int inScreenWidth, const int inScreenHeight)
 {
 	// First make sure the resized one is set to the original
 	mResizedImage = mOriginalPixels;
+
+	// The resized image is necessary for screen space color lookups
 	mResizedImage.resize(inScreenWidth, inScreenHeight);
 }
 
@@ -121,8 +123,7 @@ ofColor ImgTexture::getColor(int inX, int inY)
 ofColor ImgTexture::getRelColor(float inX, float inY)
 {
 	int x = (int)((float)ofGetWindowHeight() * inY);
-	int y = (int)((float)ofGetWindowWidth() * inX);
-	this->getColor(x, y);
+	int y = (int)((float)ofGetWindowWidth()  * inX);
 	return mResizedImage.getColor(x, y);
 }
 
@@ -134,7 +135,7 @@ void ImgTexture::drawImage(float inAlpha)
 {
 	ofEnableAlphaBlending();	
 	glColor4f(1.0f, 1.0f, 1.0f, inAlpha);
-	mResizedImage.draw(0.0f, 0.0f, mResizedImage.width, mResizedImage.height);
+	mOriginalPixels.draw(0.0f, 0.0f, mResizedImage.width, mResizedImage.height);
 	glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
 	ofDisableAlphaBlending();
 }
