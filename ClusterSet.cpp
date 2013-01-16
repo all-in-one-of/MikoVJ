@@ -33,4 +33,3 @@ void ClusterSet::getSelection(int inAmount, std::vector<PixelIndex>& IOIndices)
 		IOIndices[x] = temp;
 	}
 }
-

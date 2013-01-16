@@ -122,8 +122,8 @@ ofColor ImgTexture::getColor(int inX, int inY)
 // Get's the color relative to screen
 ofColor ImgTexture::getRelColor(float inX, float inY)
 {
-	int x = (int)((float)ofGetWindowHeight() * inY);
-	int y = (int)((float)ofGetWindowWidth()  * inX);
+	int x = (int)((float)ofGetWindowHeight() *inY);
+	int y = (int)((float)ofGetWindowWidth()  *inX);
 	return mResizedImage.getColor(x, y);
 }
 
