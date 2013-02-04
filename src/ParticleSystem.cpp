@@ -1,12 +1,3 @@
-/*
- *  ParticleSystem.cpp
- *  ofxMSAFluid Demo
- *
- *  Created by Mehmet Akten on 02/05/2009.
- *  Copyright 2009 MSA Visuals Ltd.. All rights reserved.
- *
- */
-
 #include "ParticleSystem.h"
 
 using namespace MSA;
